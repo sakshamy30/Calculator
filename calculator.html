@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <style>
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="first">
+        <input type="text" placeholder="00000" id="input"> <br><br>
+        <button class="b1" onclick="clearOne()">C</button>
+        <button class="b2" onclick="clearAll()">CE</button>
+        <button class="b3" onclick="turnOn()">ON</button>
+        <button class="b4" onclick="turnOff()">OFF</button> <br><br>
+        <button class="b5" onclick="getValues('7')"> 7 </button>
+        <button class="b6" onclick="getValues('8')"> 8 </button>
+        <button class="b8" onclick="getValues('9')"> 9 </button>
+        <button class="b9" onclick="getValues('+')" ondblclick="add(sum)"> + </button> <br><br>
+        <button class="b10" onclick="getValues('4')">4</button> 
+        <button class="b11" onclick="getValues('5')"> 5 </button>
+        <button class="b12" onclick="getValues('6')"> 6 </button>
+        <button class="b13" onclick="getValues('-')"> - </button> <br><br>
+        <button class="b14" onclick="getValues('1')"> 1 </button> 
+        <button class="b15" onclick="getValues('2')">2</button>
+        <button class="b16" onclick="getValues('3')">3</button>
+        <button class="b17" onclick="getValues('*')">*</button> <br><br>
+        <button class="b18" onclick="getValues('.')"> . </button>
+        <button class="b19"onclick="getValues('0')">0</button>
+        <button class="b20" onclick="getValues('/')">/</button>
+        <button class="b21" onclick="calculate()">=</button>
+    </div>
+
+
+
+    <script src="./calculator.js"></script>
+</body>
+</html>

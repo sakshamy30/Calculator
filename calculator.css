@@ -1,0 +1,25 @@
+div > button
+{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 50%;
+    width: 20%;
+    box-shadow: 0 0 2px 1px black;
+    background-color: aquamarine;
+}
+
+#first
+{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+}
+
+#input
+{
+    width: 200px;
+    height: 50px;
+    border: 3px solid black;
+}
+
+
